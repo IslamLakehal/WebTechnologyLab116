@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>The home of the glizzy</title>
+    <link rel="stylesheet" href="webshop.css"/>
+    <script type="text/javascript" src="/path/to/jquery-latest.js"></script>
+    <script type="text/javascript" src="/path/to/jquery.tablesorter.js"></script>
+    <script type="text/javascript" src="/path/to/jquery.tablesorter.widgets.js"></script>
+    </head>
+
+
+  <body>
+
+    <section>
+      <table id="products" class="tablesorter">
+      <caption>Our available freshly frozen hotdogs:</caption>
+      <tr>
+        <th>Product</th>
+        <th>Best before</th>
+        <th>Origin</th>
+        <th>Amount</th>
+        <th>Image</th>
+      </tr>
+      <tr>
+        <td>Chilly chilli dog</td>
+        <td>02-03-2022</td>
+        <td>USA</td>
+        <td>32</td>
+        <td>
+          <figure>
+            <img src="https://www.simplyrecipes.com/wp-content/uploads/2010/05/chili-dog-horiz-a-1600.jpg" id="image" alt="The dog">
+            <figcaption>Chilli</figcaption>
+          </figure>
+          </td>
+      </tr>
+      <tr>
+        <td>Itsa Harissa dog</td>
+        <td>22-05-2021</td>
+        <td>Morocco</td>
+        <td>5</td>
+        <td>
+          <figure>
+            <img src="https://www.wijnspijs.nl/magazine/wp-content/uploads/2018/07/cWQ6r-e1531384379394.jpeg" id="image1" alt="Harissa">
+            <figcaption>Harissa</figcaption>
+          </figure>
+      </tr>
+      <tr>
+        <td>Wonky Wagyu dog</td>
+        <td>14-11-2021</td>
+        <td>Japan</td>
+        <td>67</td>
+        <td>
+          <figure>
+            <img src="https://cdn11.bigcommerce.com/s-t9imb/images/stencil/1280x1280/products/9011/21377/waghbught__56866__22926.1543021103.jpg?c=2" id="image2" alt="Wagyu">
+            <figcaption>Wagyu</figcaption>
+          </figure>
+          </tr>
+      <tr>
+        <td>The Dogfather</td>
+        <td>28-02-2022</td>
+        <td>Italy</td>
+        <td>23</td>
+        <td>
+          <figure>
+            <img src="https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/desktopimages/15456.jpg?ext=.jpg" id="image3" alt="father">
+            <figcaption>Italian</figcaption>
+          </figure>
+          </tr>
+      <tr>
+        <td>No plain no gain dog</td>
+        <td>01-07-2022</td>
+        <td>USA</td>
+        <td>87</td>
+        <td>
+          <figure>
+            <img src="https://media.libelle.nl/m/nsf87jhim24n_home_landscape_top_article_630x325.png" id="image4" alt="plain">
+            <figcaption>Plain</figcaption>
+          </figure>
+          </td>
+      </tr>
+      <tr>
+        <form action="https://wt.ops.labs.vu.nl/api21/1cfee248" method="post">
+          <td><input type="text" name="product" placeholder="product"></td>
+          <td><input type="text" name="best_before_date" placeholder="best_before_date"></td>
+          <td><input type="text" name="origin" placeholder="origin"></td>
+          <td><input type="text" name="amount" placeholder="amount"></td>
+          <td><input type="text" name="image" placeholder="image">
+          <input type="submit"></td>
+        </form>
+      </tr>
+
+      </table>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous">
+    </script>
+    <script src="webshop.js"></script>
+</body>
