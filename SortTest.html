@@ -6,9 +6,8 @@
     <meta charset="utf-8"/>
     <title>The home of the glizzy</title>
     <link rel="stylesheet" href="webshop.css"/>
-    <script type="text/javascript" src="/path/to/jquery-latest.js"></script>
-    <script type="text/javascript" src="/path/to/jquery.tablesorter.js"></script>
-    <script type="text/javascript" src="/path/to/jquery.tablesorter.widgets.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
     </head>
 
 
@@ -17,6 +16,7 @@
     <section>
       <table id="products" class="tablesorter">
       <caption>Our available freshly frozen hotdogs:</caption>
+      <thead>
       <tr>
         <th>Product</th>
         <th>Best before</th>
@@ -24,6 +24,8 @@
         <th>Amount</th>
         <th>Image</th>
       </tr>
+      </thead>
+      <tbody>
       <tr>
         <td>Chilly chilli dog</td>
         <td>02-03-2022</td>
@@ -91,14 +93,9 @@
           <input type="submit"></td>
         </form>
       </tr>
-
+      </tbody>
       </table>
     </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous">
-    </script>
     <script src="webshop.js"></script>
 </body>
